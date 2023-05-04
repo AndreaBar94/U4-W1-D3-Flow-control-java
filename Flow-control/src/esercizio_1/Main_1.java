@@ -19,11 +19,13 @@ public class Main_1 {
 	}
 	
 	
-	public static void annoBisestile(int year) {
-		if(year % 4 == 0 || year % 100 == 0 && year % 400 == 0) {
-			System.out.println(true);
-		}else {
-			System.out.println(false);
-		}
+	public static Boolean annoBisestile(int year) {
+		if (year % 4 == 0 && year % 100 != 0) {
+	        return true;
+	    } else if (year % 400 == 0) {
+	        return true;
+	    } else {
+	        return false;
+	    }
 	}
 }
