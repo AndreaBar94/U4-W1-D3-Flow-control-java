@@ -22,7 +22,7 @@ public class While {
 		
 		while(!text.contains(":q")) {
 			String[] textSplitted = text.split("");
-			System.out.println(Arrays.toString(textSplitted));
+			System.out.println(String.join(",", textSplitted));
 			break;
 		};
 		string.close();
