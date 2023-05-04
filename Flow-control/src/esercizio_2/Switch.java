@@ -3,7 +3,7 @@ package esercizio_2;
 public class Switch {
 
 	public static void main(String[] args) {
-		getLiteralNumber(4);
+		getLiteralNumber(3);
 	}
 	
 	public static void getLiteralNumber(int number) {
